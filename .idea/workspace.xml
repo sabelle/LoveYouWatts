@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a6c461-f086-48ca-b792-a3b3d6f379ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LoveYouWatts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LoveYouWatts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i_love_you_watts/assets/google_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_love_you_watts/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/i_love_you_watts/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_love_you_watts/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/i_love_you_watts/pubspec.yaml" afterDir="false" />
     </list>
@@ -41,11 +41,16 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/i_love_you_watts/assets/google_logo.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/i_love_you_watts/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="285">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -87,6 +92,12 @@
               <item name="LoveYouWatts" type="b2602c69:ProjectViewProjectNode" />
               <item name="LoveYouWatts" type="462c0819:PsiDirectoryNode" />
               <item name="i_love_you_watts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LoveYouWatts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoveYouWatts" type="462c0819:PsiDirectoryNode" />
+              <item name="i_love_you_watts" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LoveYouWatts" type="b2602c69:ProjectViewProjectNode" />
@@ -193,10 +204,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/i_love_you_watts/assets/google_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/i_love_you_watts/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="285">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
