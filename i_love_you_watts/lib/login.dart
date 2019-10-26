@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class Login extends StatefulWidget {
   @override
   loginPage createState() => new loginPage();
@@ -24,7 +25,6 @@ class loginPage extends State<Login> {
             "Login with your Google account to get started",
             style: TextStyle(color: Colors.white),
           )
-
         ],
       ),
     );
