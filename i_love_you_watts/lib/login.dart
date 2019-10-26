@@ -18,7 +18,7 @@ class loginPage extends State<Login> {
           Text(
             "Welcome",
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white, fontFamily: "Garden Grown"),
+            style: TextStyle(fontSize: 60.0,color: Colors.white, fontFamily: "Garden Grown"),
           ),
           Text(
             "Login with your Google account to get started",
