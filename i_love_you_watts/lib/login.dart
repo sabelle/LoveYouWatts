@@ -45,10 +45,11 @@ class loginPage extends State<Login> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   new Image.asset(
-                    'asset/google_button.jpg',
+                    'asset/google_signin.jpg',
                     height: 40.0,
                   ),
                   new Container(
+                      // comment
                       padding: EdgeInsets.only(left: 10.0, right: 10.0),
                       child: new Text(
                         "Sign in with Google",
