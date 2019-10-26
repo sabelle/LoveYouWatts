@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:176920560770:android:1234ec2f5d17bd578d209b",
+        "android_client_info": {
+          "package_name": "com.example.i_love_you_watts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176920560770-01hok3j2b6kb1bfr08elj9v0050o4hca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP8s2dhBhyQLwRx78_8TL4Zzqo05bjVQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176920560770-01hok3j2b6kb1bfr08elj9v0050o4hca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:176920560770:android:878f9d0ae5cab3808d209b",
         "android_client_info": {
           "package_name": "com.example.love_you_watts_2019"
