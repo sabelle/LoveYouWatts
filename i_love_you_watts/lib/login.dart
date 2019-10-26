@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:i_love_you_watts/home.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -24,7 +24,15 @@ class loginPage extends State<Login> {
           Text(
             "Login with your Google account to get started",
             style: TextStyle(color: Colors.white),
-          )
+          ),
+          RaisedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Home()),
+            );
+          },
+          child: Text("login"),)
         ],
       ),
     );

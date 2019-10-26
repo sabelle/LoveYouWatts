@@ -4,8 +4,10 @@ class Home extends StatefulWidget {
   @override
   HomePage createState() => new HomePage();
 }
+var light = "assets/lightOff.png";
 
 class HomePage extends State<Home> {
+  bool isOn = false;
   static const pink = const Color(0xffE279BC);
   @override
   Widget build(BuildContext context) {
@@ -13,22 +15,41 @@ class HomePage extends State<Home> {
     return Scaffold(
       backgroundColor: pink,
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Image.asset("assets/hangingLights.png"),
+          Text(""),
+          Text(""),
           Text(
-            "Welcome",
+            "Light up someone's life",
             textAlign: TextAlign.center,
             style: TextStyle(
-                fontSize: 60.0,
+                fontSize: 50.0,
                 color: Colors.white,
                 fontFamily: "Garden Grown"),
           ),
           Text(
-            "Login with your Google account to get started",
+            "Tap to send some love",
+            textAlign: TextAlign.center,
             style: TextStyle(color: Colors.white),
-          )
+          ),
+          FlatButton(onPressed: null,
+              child: Container(
+            child:Image.asset(light),
+          ))
         ],
       ),
     );
   }
+}
+
+void _onClicked() {
+  setState(() {
+    if (light == "assets/lightOff.png"){
+      light = "assets/lightOn.png";   //change myImage to the other one
+    }
+    else {
+      light = "assets/loginscreen/btn.png"; //change myImage back to the original one
+    }
+  });
 }
