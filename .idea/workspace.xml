@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a6c461-f086-48ca-b792-a3b3d6f379ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LoveYouWatts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LoveYouWatts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_love_you_watts/lib/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/i_love_you_watts/lib/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_love_you_watts/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/i_love_you_watts/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_love_you_watts/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/i_love_you_watts/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +32,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i_love_you_watts/lib/login.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="254">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/i_love_you_watts/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -51,6 +59,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/i_love_you_watts/lib/login.dart" />
+        <option value="$PROJECT_DIR$/i_love_you_watts/pubspec.yaml" />
       </list>
     </option>
   </component>
@@ -145,8 +154,9 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Dart Analysis" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="CheckStyle" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32947975" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
@@ -178,8 +188,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i_love_you_watts/lib/login.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="254">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i_love_you_watts/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
