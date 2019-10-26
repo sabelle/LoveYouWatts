@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-
 class Home extends StatefulWidget {
   @override
   HomePage createState() => new HomePage();
 }
 var light = "assets/lightOff.png";
+var assetImage = new AssetImage(light);
 
 class HomePage extends State<Home> {
   bool isOn = false;
@@ -33,7 +33,18 @@ class HomePage extends State<Home> {
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.white),
           ),
-          FlatButton(onPressed: null,
+          FlatButton(onPressed: (){
+            setState(() {
+              if (isOn){
+                light = "assets/lightOff.png";
+                isOn = false;//change myImage to the other one
+              }
+              else {
+                light = "assets/lightOn.png";
+                isOn = true;//change myImage back to the original one
+              }
+            });
+          },
               child: Container(
             child:Image.asset(light),
           ))
@@ -43,13 +54,3 @@ class HomePage extends State<Home> {
   }
 }
 
-void _onClicked() {
-  setState(() {
-    if (light == "assets/lightOff.png"){
-      light = "assets/lightOn.png";   //change myImage to the other one
-    }
-    else {
-      light = "assets/loginscreen/btn.png"; //change myImage back to the original one
-    }
-  });
-}
